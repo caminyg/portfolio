@@ -16,31 +16,38 @@
 
 <div id="nav"><nav>
 		<a href="about.html" class="text" target="_self">Om</a>
-		<a href="portfolio.html" class="text" target="_self">Portfolio</a>
+		<div class="dropdown">
+  <button class="dropbtn">Portfolio</button>
+  <div class="dropdown-content">
+    <a href="portfolio.html" class="text" target="_self">1. semester</a>
+    <a href="#">2. semester</a>
+    <a href="#">3. semester</a>
+	<a href="#">4. semester</a>
+  </div>
+</div>
 		<a href="#" class="active" class="text" target="_self">Kontakt</a>
 	</nav></div>
 
 <section>
 <h1>Send mig gerne en brevdue</h1>
+<h2>og lad os finde ud af noget sammen</h2>
 	
 <form action="mailto:camilla_nt@hotmail.com?subject=Contact%20via%20form" method="post" enctype="text/plain">
+      
       <p>
-        <label>Indtast dit navn</label>
+        <input type="text" name="name" class="box" placeholder="Indtast dit fulde navn" autofocus required>
       </p>
-      <p>
-        <input type="text" name="name" class="box" placeholder="Dit navn" autofocus required>
+	
+	<p>
+        <input type="phone" name="phone" class="box" placeholder="Indtast dit telefonnummer" required>
       </p>
+      
       <p>
-        <label>Indtast din e-mail</label>
+        <input type="email" name="email" class="box" placeholder="Indtast din e-mail" required>
       </p>
+      
       <p>
-        <input type="email" name="email" class="box" placeholder="Din e-mail" required>
-      </p>
-      <p>
-        <label>Skriv din besked her</label>
-      </p>
-      <p>
-        <textarea name="comment" class="box" id="messagebox" placeholder="Din besked"></textarea>
+        <textarea name="comment" class="box" id="messagebox" placeholder="Skriv din besked her"></textarea>
       </p>
       <input id="submitbutton" type="submit" value="Send">
     </form>

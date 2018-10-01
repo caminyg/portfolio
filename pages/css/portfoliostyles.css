@@ -38,6 +38,9 @@ body footer {
     width: 100%;
     word-spacing: 3em;	
 }
+a {
+	text-decoration: none;
+}
 body div {
 	min-height: 100px;
 }
