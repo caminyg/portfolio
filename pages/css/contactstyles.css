@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+logo {
+    float: left;	
+}
+
+#nav {
+    float: right;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    word-spacing: 3em;
+    display: inline;
+    font-family: bubbler-one;
+}
+
+.text {
+    color: #000000;
+    text-decoration: none;
+}
+
+.active {
+	color: darkgrey;
+    text-decoration: none;
+}
+
+body footer {
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    word-spacing: 3em;	
+}
+body div {
+	min-height: 100px;
+}
+h1 {
+    font-family: dawning-of-a-new-day;
+	font-style: normal;
+    font-weight: 400;
+    font-size: 3em;
+    text-align: center;
+    line-height: 1em;
+    height: 0.5em;
+}
+div section form {
+    text-align: center;
+    width: 100%;
+    font-family: bubbler-one;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0em;	
+}
+
+.box {
+    padding: 10px;
+    font-family: bubbler-one;
+    font-style: normal;
+    font-weight: 400;
+    width: 40em;
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+#messagebox {
+    height: 15em;
+	color: #000000;
+}
+
+#submitbutton {
+    border-radius: 10px;
+    border: 0.5px solid #959292;
+    background-color: white;
+    font-family: bubbler-one;
+    font-style: normal;
+    font-weight: 400;
+    font-size: large;
+}

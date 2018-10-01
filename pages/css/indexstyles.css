@@ -21,13 +21,20 @@ body section {
 logo {
     float: left;	
 }
-body nav {
+
+#nav {
     float: right;
     font-family: bubbler-one;
     font-style: normal;
     font-weight: 400;
-    font-size: 2em;
-    word-spacing: 1em;
+    font-size: 1.5em;
+    word-spacing: 3em;
+	display: inline;
+}
+
+.text {
+    color: #000000;
+    text-decoration: none;
 }
 
 body section h2 {

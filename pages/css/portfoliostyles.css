@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+logo {
+    float: left;	
+}
+
+#nav {
+    float: right;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    word-spacing: 3em;
+    display: inline;
+    font-family: bubbler-one;
+}
+
+.text {
+    color: black;
+    text-decoration: none;	
+}
+
+.active {
+	color: darkgrey;
+	text-decoration: none;
+}
+
+body footer {
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    word-spacing: 3em;	
+}
+body div {
+	min-height: 100px;
+}
