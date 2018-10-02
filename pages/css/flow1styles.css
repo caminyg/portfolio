@@ -5,18 +5,6 @@ body {
     background-attachment: fixed;
     height: 100%;
 }
-body section h1 {
-    font-family: dawning-of-a-new-day;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 4em;
-    text-align: center;
-    line-height: 0.5em;
-	height: 0.5em;
-}
-body section {
-	padding: 90px;
-}
 
 logo {
     float: left;	
@@ -24,43 +12,68 @@ logo {
 
 #nav {
     float: right;
-    font-family: bubbler-one;
     font-style: normal;
     font-weight: 400;
     font-size: 1.5em;
     word-spacing: 3em;
-	display: inline;
+    display: inline;
+    font-family: bubbler-one;
 }
 
 .text {
-    color: #000000;
-    text-decoration: none;
+    color: black;
+    text-decoration: none;	
 }
 
-body section h2 {
-    font-family: bubbler-one;
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
-    font-size: 1.5em;
-	line-height: 0.5em;
-	height: 0.5em;
+.active {
+	color: darkgrey;
+	text-decoration: none;
 }
+
 body footer {
     text-align: center;
     height: 50px;
     position: absolute;
     bottom: 0;
     width: 100%;
-    word-spacing: 3em;
+    word-spacing: 3em;	
 }
-
 a {
 	text-decoration: none;
 }
-
 body div {
 	min-height: 100px;
+}
+
+h3 {
+    font-family: dawning-of-a-new-day;
+    font-style: normal;
+    font-weight: 400;
+	font-size: 3em;
+	line-height: 0.1em;
+	margin-left: 10%;
+}
+
+p {
+    font-family: bubbler-one;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1em;
+    width: 50%;
+    float: left;
+    margin-left: 10%;
+    background:rgba(255,255,255, 0.7);
+}
+
+#flow {
+	float: left;
+	margin-left: 10%;
+}
+
+#xd {
+	float: right;
+	margin-right: 10%;
 }
 
 /* Dropdown Button */
@@ -110,4 +123,3 @@ body div {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
-
