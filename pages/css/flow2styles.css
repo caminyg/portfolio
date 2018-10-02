@@ -45,36 +45,28 @@ body div {
 	min-height: 100px;
 }
 
-h3 {
+.flowheader {
+    font-family: dawning-of-a-new-day;
     font-style: normal;
     font-weight: 400;
-    font-size: 3em;
-    line-height: 0.1em;
-    margin-left: 10%;
-    font-family: dawning-of-a-new-day;
+	font-size: 3em;
+	text-align: center;
 }
 
 p {
+    font-family: bubbler-one;
     font-style: normal;
     font-weight: 400;
     font-size: 1em;
     line-height: 1em;
-    width: 50%;
-    float: left;
-    margin-left: 10%;
-    background: rgba(255,255,255, 0.7);
-    font-family: bubbler-one;
+    width: 65%;
+    background:rgba(255,255,255, 0.7);
+	display: block;
+	margin: auto;
+	padding: 5px;
 }
 
-#flow {
-	float: left;
-	margin-left: 10%;
-}
 
-#xd {
-	float: right;
-	margin-right: 10%;
-}
 
 /* Dropdown Button */
 .dropbtn {
@@ -123,3 +115,22 @@ p {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
+
+.imgrow {
+	width: 80%;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+#img1 {
+	width: 26.66%;
+}
+
+#img2 {
+	width: 26.66%;
+}
+
+#img3 {
+	width: 26.66%;
+}

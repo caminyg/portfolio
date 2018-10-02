@@ -74,15 +74,16 @@ a {
     font-weight: 400;
     font-size: large;
     font-family: bubbler-one;
-}
-
-#box1 {
-    width: 50%;
+	width: 50%;
     background-color: #FFFFFF;
 	opacity: 0.8;
 	display: block;
 	margin: auto;
 	padding: 5px;
+}
+
+p {
+	padding: 7px;
 }
 
 /* Dropdown Button */
